@@ -5,5 +5,5 @@
 ## ING. NEFTALI CALDERON
 <hr>
 ### 202000562 - Pedro Luis Pu Tavico
-- [Documentacion POSTMAN](https://documenter.getpostman.com/view/20197508/UyrAFcwk)
-- [Enlace HEROKU](https://ipc1-proyecto2-202000562.herokuapp.com/)
+-[Documentacion POSTMAN](https://documenter.getpostman.com/view/20197508/UyrAFcwk)
+-[Enlace HEROKU](https://ipc1-proyecto2-202000562.herokuapp.com/)
