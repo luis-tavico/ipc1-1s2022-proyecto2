@@ -52,7 +52,7 @@ def addBook():
 def updateBook():
     body = request.get_json()
     try:
-        if ('isbn' in body and 'author' in body and 'title' in body and 'year' in body):
+        if ('isbn' in body and ('author' in body or 'title' in body or 'year' in body)):
             if (bankDatabase.updateBook(body)):
                 return jsonify({'msg': 'Libro actualizado exitosamente'}), 201
             else:

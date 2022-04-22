@@ -31,10 +31,12 @@ class Database():
     def updateBook(self, book):
         for i in range(len(self.Books)):
             if self.Books[i].getIsbn() == book['isbn']:
-                self.Books[i].setIsbn(int(book['isbn']))
-                self.Books[i].setAuthor(book['author'])
-                self.Books[i].setTitle(book['title'])
-                self.Books[i].setYear(int(book['year']))
+                if ("author" in book):
+                    self.Books[i].setAuthor(book['author'])
+                if ("title" in book):
+                    self.Books[i].setTitle(book['title'])
+                if ("year" in book):
+                    self.Books[i].setYear(int(book['year']))
                 return True
         return False
 
