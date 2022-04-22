@@ -1,12 +1,11 @@
 class Lender:
 
-    Records = []
-    borrowedBook = False
-
     def __init__(self, cui, last_name, first_name):
         self.cui = cui
         self.last_name = last_name
         self.first_name = first_name
+        self.Records = []
+        self.borrowedBook = False
 
     ################METHOD_GET##########################
     def getCui(self):
