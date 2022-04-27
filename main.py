@@ -1,6 +1,6 @@
 from datetime import date
 from flask import Flask, jsonify, request
-from database import bankDatabase
+from db.database import bankDatabase
 from flask_cors import CORS
 
 app = Flask(__name__)
