@@ -131,7 +131,7 @@ def getLender(cui):
         if object != None:
             return(jsonify(object)), 200
         else:
-            msg = {'msg': '¡Error! no existe prestamista con ese cui'}
+            msg = {'msg': 'No existe prestamista con ese cui'}
             return(jsonify(msg)), 404
     except:
         return {'msg': 'Ocurrio un error en el servidor'}, 500
